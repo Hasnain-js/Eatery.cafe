@@ -1,0 +1,65 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 120px 0;
+  padding-bottom: 80px;
+  .section-tittle {
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  a,
+  p {
+    color: #909090;
+  }
+  strong {
+    color: #d9d9d9;
+  }
+  address {
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .section-card {
+    background: #ce3232;
+    background: url("../assets/footer-open-hour-bg.jpg") center center no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 0;
+    padding: 40px 70px 40px 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: 22;
+    right: 20px;
+    bottom: 20px;
+  }
+  .section-card::after {
+    background: rgba(29, 29, 29, 0.85);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2222;
+  }
+  .card-context {
+    h2 {
+      color: #ffffff;
+    }
+    p {
+      color: #d9d9d9;
+    }
+    strong {
+      color: #f9f9f9;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.headernav {
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background: white;
+  box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px,
+    rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+  z-index: 5;
+  h3 {
+    margin-right: 100px;
+
+    span {
+      color: red;
+    }
+  }
+  ul {
+    margin-top: 25px;
+    li {
+      list-style: none;
+      display: inline;
+      flex-wrap: nowrap;
+      font-size: 12px;
+      font-weight: bold;
+      color: #454545;
+      padding-right: 22px;
+      padding-left: 22px;
+      text-transform: uppercase;
+    }
+    .phone {
+      margin-left: 60px;
+      button {
+        margin-left: 10px;
+      }
+    }
+  }
+  #logo {
+    transition: width 2s, height 2s;
+  }
+  #logo :hover {
+    color: #454545 !important;
+    transform: scale(1.2);
+  }
+}

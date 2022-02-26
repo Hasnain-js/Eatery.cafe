@@ -1,0 +1,61 @@
+#contact {
+  margin: 0;
+  margin-top: 75px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  #map {
+    width: 50%;
+    height: fit-content;
+    iframe {
+      border: 0;
+    }
+  }
+}
+#contact-us {
+  width: 50%;
+  .section-tittle {
+    padding: 10px;
+  }
+  form {
+    padding: 10px;
+    #email-name {
+      display: flex;
+      justify-content: space-between;
+      .form-control {
+        width: 40%;
+      }
+    }
+    .form-control {
+      height: auto;
+      background: transparent;
+      border: 0;
+      padding: 6px 12px;
+      color: #555;
+      border-bottom: 1px solid #dddddd;
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 15px;
+      transition: all ease-in-out 0.4s;
+      font-family: inherit;
+    }
+    #subject {
+      display: block;
+      width: -webkit-fill-available;
+      padding: 6px 12px;
+    }
+    #textarea {
+      display: block;
+      width: -webkit-fill-available;
+      padding: 6px 12px;
+      height: auto;
+    }
+    button {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

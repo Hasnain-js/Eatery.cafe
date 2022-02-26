@@ -1,0 +1,89 @@
+@import "../src/scss/header.scss";
+@import "../src/scss/carousel.scss";
+@import "../src/scss/footer.scss";
+@import "../src/scss/about.scss";
+@import "../src/scss/chef.scss";
+@import "../src/scss/menu.scss";
+@import "../src/scss/contact.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,900;1,700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+/*---------------------------------------
+     TYPOGRAPHY
+  -----------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  line-height: inherit;
+}
+
+h1 {
+  color: #252525;
+  font-size: 3em;
+  line-height: 50px;
+}
+
+h2 {
+  color: #353535;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+h3,
+h3 a {
+  color: #454545;
+  text-decoration: none;
+}
+
+p {
+  color: #757575;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+}
+a {
+  color: #454545;
+  text-decoration: none;
+}
+a {
+  active {
+    color: #ce3232;
+  }
+}
+a:hover {
+  color: #ce3232;
+}
+/*---------------------------------------
+     BUTTONS
+  -----------------------------------------*/
+
+button:hover {
+  background-color: #252525;
+  border: 1px solid #f3f3f3;
+  cursor: pointer;
+}
+button {
+  background: #ce3232;
+  border-radius: 0;
+  border: 0;
+  color: #f3f3f3;
+  font-size: inherit;
+  font-weight: 500;
+  padding: 10px 25px;
+  transition: 0.2s 0.2s;
+  font-weight: 500;
+  font-size: 15px;
+}

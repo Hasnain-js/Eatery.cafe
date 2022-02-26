@@ -1,0 +1,22 @@
+.legend {
+  bottom: 500px !important;
+  left: 50%;
+  margin-left: -45%;
+  border-radius: none !important;
+  background: none !important;
+  padding: 10px;
+  font-size: 12px;
+  text-align: start !important;
+  opacity: 0.25;
+  h3 {
+    color: #fff;
+  }
+  h1 {
+    color: #fff;
+    width: 70%;
+    font-size: 4em;
+  }
+}
+.carousel.carousel-slider {
+  height: 640px !important;
+}
