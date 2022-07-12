@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 import { ReserveForm } from "./Reservation/Reserve";
+import { CheckBox } from "./CheckBox/CheckBox";
 const Header = () => {
   const [open, setOpen] = useState(false);
 
@@ -36,6 +37,7 @@ const Header = () => {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
+          <CheckBox />
 
           <li className="phone">
             Call Now! 010 020 345{" "}
